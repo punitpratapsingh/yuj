@@ -52,12 +52,12 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Call Us",
-      details: ["+91 XXX XXX XXXX", "Available Mon-Sat"]
+      details: ["+91 8209830890", "Rakhi"]
     },
     {
       icon: Mail,
       title: "Email Us",
-      details: ["hello@yujproductions.com", "info@yujproductions.com"]
+      details: ["yujproduction@gmail.com"]
     },
     {
       icon: Clock,
@@ -304,13 +304,13 @@ const Contact = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:+91XXXXXXXXX"
+                href="tel:+918209830890"
                 className="bg-luxury-gold hover:bg-luxury-gold/90 text-white px-8 py-4 rounded-lg font-inter font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl"
               >
                 Call Now
               </a>
               <a
-                href="mailto:hello@yujproductions.com"
+                href="mailto:yujproduction@gmail.com"
                 className="border-2 border-white text-white hover:bg-white hover:text-luxury-charcoal px-8 py-4 rounded-lg font-inter font-semibold text-lg transition-all duration-300"
               >
                 Send Email
