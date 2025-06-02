@@ -265,7 +265,7 @@ const Contact = () => {
       </section>
 
       {/* Map Section */}
-      <section className="py-24 bg-luxury-pearl">
+{/*       <section className="py-24 bg-luxury-pearl">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16 animate-fade-in">
             <h2 className="font-playfair font-bold text-4xl text-luxury-charcoal mb-6">
@@ -290,7 +290,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section className="py-24 bg-luxury-charcoal">
