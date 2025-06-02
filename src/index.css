@@ -1,0 +1,86 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 250 249 246;
+    --foreground: 54 69 79;
+
+    --card: 250 249 246;
+    --card-foreground: 54 69 79;
+
+    --popover: 255 255 255;
+    --popover-foreground: 54 69 79;
+
+    --primary: 212 175 55;
+    --primary-foreground: 255 255 255;
+
+    --secondary: 248 246 240;
+    --secondary-foreground: 54 69 79;
+
+    --muted: 248 246 240;
+    --muted-foreground: 115 115 115;
+
+    --accent: 247 231 206;
+    --accent-foreground: 54 69 79;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 229 228 226;
+    --input: 229 228 226;
+    --ring: 212 175 55;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 250 249 246;
+    --sidebar-foreground: 54 69 79;
+    --sidebar-primary: 212 175 55;
+    --sidebar-primary-foreground: 255 255 255;
+    --sidebar-accent: 248 246 240;
+    --sidebar-accent-foreground: 54 69 79;
+    --sidebar-border: 229 228 226;
+    --sidebar-ring: 212 175 55;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-inter;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-playfair;
+  }
+}
+
+@layer components {
+  .luxury-gradient {
+    background: linear-gradient(135deg, #FAF9F6 0%, #F8F6F0 50%, #F7E7CE 100%);
+  }
+
+  .gold-shimmer {
+    background: linear-gradient(45deg, #D4AF37, #FFD700, #D4AF37);
+    background-size: 200% 200%;
+    animation: shimmer 3s ease-in-out infinite;
+  }
+
+  @keyframes shimmer {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+  }
+
+  .elegant-hover {
+    @apply transition-all duration-500 ease-out;
+  }
+
+  .elegant-hover:hover {
+    @apply transform scale-105 shadow-xl;
+  }
+}
